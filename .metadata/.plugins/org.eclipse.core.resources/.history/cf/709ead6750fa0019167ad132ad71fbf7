@@ -1,0 +1,20 @@
+
+public class Variables {
+
+	public static void main(String[] args) {
+		int numero = 0;//variable numerica
+		System.out.println("El numero es: " + numero);
+		int numero2 = 78;
+		System.out.println(numero2);
+		
+		//Otros tipos
+		long numeroLargo = 676;
+		int x = 5;
+		double numeroReal = 34.567;
+		boolean cierto = true;
+		cierto = false;
+		System.out.println(numeroLargo);
+		System.out.println(numeroReal);
+	}
+
+}
