@@ -1,0 +1,10 @@
+
+public class Condicionales {
+	public static void main(String[] args) {
+		boolean cierto = true;
+        //ifs
+        if(cierto == true){
+            System.out.println("El valor es cierto");
+        }
+	}
+}
