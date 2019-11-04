@@ -14,6 +14,7 @@ public class Lectura {
 		}
 		
 		//Capturar texto
+		sc.nextLine();
 		System.out.println("Introduzca una palabra: ");
 		String cadena = sc.nextLine();
 		System.out.println("El texto introducido ha sido: " + cadena);

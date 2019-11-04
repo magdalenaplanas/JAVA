@@ -21,7 +21,7 @@ public class MainArrays {
 		//si  poneis una posicion del array que no existe, pagaras cara tu estupidez
 		//porque java te para el programa instantaneamente
 		
-		System.out.println(arrayNumeros[0]);
+		System.out.println(arrayNumeros[9]);
 		System.out.println("esto se ejecuta despues");
 		
 		//Dinamicos, son objetos en java
@@ -37,9 +37,14 @@ public class MainArrays {
 			System.out.println(listaStrings.get(i));
 		}
 		
-		//para recorrer un array es un for each
+		//para recorrer un array tanto estatico como dinamico es un for each
 		for(String valor : listaStrings) {
 			System.out.println(valor);
+		}
+		
+		System.out.println("------  Recorriendo el array estatico  ----------");
+		for(int n : arrayNumeros) {
+			System.out.println(n);
 		}
 	}
 

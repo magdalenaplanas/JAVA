@@ -44,6 +44,8 @@ public class MainStrings {
 		String subcadena = frase.substring(0, 9);
 		System.out.println(subcadena);
 		
+		System.out.println(frase.length());
+		
 	}
 
 }
