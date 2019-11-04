@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Ejercicio7 {
+public class Ejercicio07 {
 
 	public static void main(String[] args) {
 		ArrayList<String> listaNombres = new ArrayList<String>();
