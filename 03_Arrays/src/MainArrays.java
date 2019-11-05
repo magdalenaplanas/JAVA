@@ -28,7 +28,7 @@ public class MainArrays {
 		ArrayList<String> listaStrings = new ArrayList<String>();
 		listaStrings.add(0, "jarry");//primer valor, posicion, segundo valor el valor
 		listaStrings.add(1, "Ernion");
-		listaStrings.add("ron");
+		boolean a = listaStrings.add("ron");
 		System.out.println(listaStrings.get(0));
 		System.out.println(listaStrings.get(2));
 		
