@@ -35,6 +35,10 @@ public class MainPersona {
 		System.out.println(p2);
 		System.out.println(p3);
 		
+		Persona p4 = new Persona("Eloy", 78, 29);
+		System.out.println(p4.nombre);
+		System.out.println(p4.edad);
+		System.out.println(p4.peso);
 	}
 
 }
