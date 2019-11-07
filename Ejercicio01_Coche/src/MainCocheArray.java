@@ -5,7 +5,9 @@ public class MainCocheArray {
 	public static void main(String[] args) {
 		ArrayList<Coche> listaCoches = new ArrayList<Coche>();
 		
-		for(int i=1;i <= 3; i++) {
+		double numero = Double.parseDouble("23");
+		//Double.parseDouble(s);
+		for(int i=1;i <= 3; i++){
 			System.out.println("Introduzca el coche " + i);
 			String matricula = leerDato("la matricula");
 			String marca = leerDato("la marca");
