@@ -6,6 +6,10 @@ public class MainPersona {
 		p1.nombre = "Bartolo";
 		p1.edad = 29;
 		p1.peso = 58.5;
+		//Persona p7 = p1;
+		//Persona p8 = p1;
+		//Persona p9 = p7;
+		//p1 = new Persona();
 		
 		System.out.println(p1.nombre);
 		System.out.println(p1.edad);
