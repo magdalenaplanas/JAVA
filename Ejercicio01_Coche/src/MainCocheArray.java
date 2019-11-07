@@ -39,15 +39,23 @@ public class MainCocheArray {
 		System.out.println("Mostrando la lista de coches");
 		int i = 1;
 		for(Coche c : listaCoches) {
-			System.out.println("Mostrando coche " + i);
-			System.out.println("Matricula: " + c.matricula);
-			System.out.println("Marca: " + c.marca);
-			System.out.println("Modelo: " + c.modelo);
-			System.out.println("Es nuevo?" +c.esNuevo);
+			mostrarCoche(c, i);
 			i++;
 		}
 	}
+	
+	public static void mostrarCoche(Coche c, int i) {
+		System.out.println("Mostrando coche " + i);
+		System.out.println("Matricula: " + c.matricula);
+		System.out.println("Marca: " + c.marca);
+		System.out.println("Modelo: " + c.modelo);
+		System.out.println("Es nuevo?" +c.esNuevo);
+	}
 }
+
+
+
+
 
 
 
