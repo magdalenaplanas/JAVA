@@ -4,8 +4,8 @@ import java.util.Scanner;
 public class MainPelicula {
 	
 	public static void main(String[] args) {
-		Pelicula p1 = new Pelicula("dfasf", "dfasfddd", "dfasdf", 10);
-		System.out.println(p1);
+		//Pelicula p1 = new Pelicula("dfasf", "dfasfddd", "dfasdf", 10);
+		//System.out.println(p1);
 		ArrayList<Pelicula> listaPeliculas = new ArrayList<Pelicula>();
 		Scanner sc = new Scanner(System.in);
 		int opcion = 0;
