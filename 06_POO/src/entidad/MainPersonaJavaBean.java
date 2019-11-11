@@ -23,6 +23,8 @@ public class MainPersonaJavaBean {
 		System.out.println(p.getDireccion().getCp());
 		
 		System.out.println(p);
+		
+		
 		/*
 		p.setDireccion("Jogüarts 56 Escalera invisible 2 puerta 3 cp 28987");
 		

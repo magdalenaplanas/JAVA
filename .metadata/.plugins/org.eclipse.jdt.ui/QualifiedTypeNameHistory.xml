@@ -8,4 +8,6 @@
 <fullyQualifiedTypeName name="Pelicula"/>
 <fullyQualifiedTypeName name="Moto"/>
 <fullyQualifiedTypeName name="javabean.PersonaBean"/>
+<fullyQualifiedTypeName name="entidad.Persona"/>
+<fullyQualifiedTypeName name="entidad.Direccion"/>
 </qualifiedTypeNameHistroy>
